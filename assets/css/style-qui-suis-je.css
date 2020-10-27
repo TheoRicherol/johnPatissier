@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    color: white;
+}
+
+.headerBackground {
+    background-color: #3E2723;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+}
