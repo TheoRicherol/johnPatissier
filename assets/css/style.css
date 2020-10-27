@@ -4,11 +4,20 @@ h1{
     font-family: 'Montserrat';
     font-weight: 300;
     color: #3E2723;
+    font-size: 2rem;
 }
 
+img{
+    min-width: 100%;
+}
 
 body{
     background-color: #F2F2F2;
+}
+
+button{
+    border: none;
+    padding: 0;
 }
 
 .bg-pastery{
