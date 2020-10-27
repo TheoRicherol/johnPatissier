@@ -1,0 +1,15 @@
+.container-fluid {
+    position: absolute;
+    align-content: center;
+}
+
+.row {
+    position: absolute;
+    align-content: center;
+}
+.form-group {
+    align-content: left;
+}
+.button {
+    align-content: center;
+}
