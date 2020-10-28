@@ -16,7 +16,7 @@ body {
 
 .div-img img {
     width: 30rem;
-    height: 30rem;
+    height: auto;
 }
 
 .marginMention {
@@ -30,4 +30,8 @@ body {
 hr {
     margin-top: 1rem;
     color: white;
+}
+
+h1 {
+    font-size: 4rem;
 }
