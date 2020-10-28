@@ -1,18 +1,33 @@
 body {
     background-color: white;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .headerBackground {
     background-color: #3E2723;
 }
 
-img {
-    width: 5rem;
-    height: 5rem;
+.div-img1 img {
+    width: 2rem;
+    height: 2rem;
 }
 
 .div-img img {
     width: 30rem;
     height: 30rem;
+}
+
+.marginMention {
+    margin-left: 10rem;
+}
+
+.footer {
+    background-color: #6A4F4B;
+}
+
+hr {
+    margin-top: 1rem;
+    color: white;
 }
