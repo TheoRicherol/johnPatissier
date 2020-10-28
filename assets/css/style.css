@@ -8,18 +8,18 @@ h1{
 }
 
 img{
-    min-width: 100%;
+   min-width: 100%;
 }
-
-
 
 body{
     background-color: #F2F2F2;
 }
 
-button{
+.gallery button{
     border: none;
     padding: 0;
+    min-width: 100%;
+    height: auto;
 }
 
 .bg-pastery{
@@ -41,8 +41,12 @@ button{
 }
 
 i{
-    font-size: 50px;
+    font-size: 3rem;
     color: white;
+}
+
+nav i{
+    font-size: 1.5rem;
 }
 
 a p, a p i{
@@ -54,4 +58,20 @@ a p, a p i{
     position: relative;
     right: 5rem;
     top:1rem;
+}
+
+.burger-menu{
+    width: 20rem;
+}
+
+.burger-menu ul{
+    position: relative;
+    background-color: white;
+    width: 20rem;
+    position: right;
+}
+
+.burger-menu li{
+    list-style: none;
+    color: #3E2723;
 }
