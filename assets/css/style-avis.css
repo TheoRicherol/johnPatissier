@@ -1,24 +1,18 @@
-html, body, {
+html, body {
     background-color: #DCDCDC;
     color: white;
     height: 100%;
 }
-
-
 .headerBackground {
     background-color: #3E2723;
-    color: white;
-    
+    color: white;   
 }
-
 .container-fluid { 
-
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;
-    
+        margin: 0; 
 }
 [class*="row"] {
 	    margin-bottom: 1em;
@@ -32,15 +26,12 @@ p {
         font-size: 14px;
         border-color: black;
         text-align: left;
-        background-color: white;
-        
+        background-color: white;       
 }
-
 img {
          width: 5rem;
          height: 5rem;
 }
-
 .div-img img {
          width: 30rem;
          height: 30rem;
@@ -48,4 +39,6 @@ img {
 .card-title {
          text-align: left;
 }
-
+.button {
+    text-align: center;
+}
