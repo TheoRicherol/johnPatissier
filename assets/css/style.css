@@ -11,6 +11,8 @@ img{
     min-width: 100%;
 }
 
+
+
 body{
     background-color: #F2F2F2;
 }
@@ -26,7 +28,11 @@ button{
 
 .gallery{
     position: relative;
-    top: 3rem;
+    top: 5rem;
+}
+
+.carousel-inner img{
+    min-width: 33%;
 }
 
 .img-galery-theme{
@@ -39,9 +45,8 @@ i{
     color: white;
 }
 
-.modal-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start ;
-    align-items: flex-start;
+a p, a p i{
+    font-size: 1em;
+    color: #3E2723;
 }
+
