@@ -61,7 +61,11 @@ a p, a p i{
 }
 
 .burger-menu{
+    position:absolute;
     width: 20rem;
+    top:3rem;
+    right: 0;
+    z-index: 20;
 }
 
 .burger-menu ul{
