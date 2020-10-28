@@ -29,6 +29,9 @@ img {
     align-content: center;
 }
 
-.button {
-    align-content: center;
+.checkbox {
+    align-content: left;
+}
+.radio2 {
+    margin-left: 3rem;
 }
