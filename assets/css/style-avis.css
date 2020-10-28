@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 3rem;
+    padding-top: rem;
 }
 
 [class*="row"] {
@@ -51,11 +52,20 @@ img {
     height: auto;
 }
 .button {
-    text-align: center;
-    padding: 1rem;
+    background-color: #3E2723;
+
 }
 .more {
     background-color: #DCDCDC;
-    align-content: center;
-    
+    padding-left: 15rem;
+}
+.code {
+    align-content: space-between;
+}
+.btn {
+    background-color: #3E2723;
+    color: white;
+}
+.btn:hover {
+    color: white;
 }
