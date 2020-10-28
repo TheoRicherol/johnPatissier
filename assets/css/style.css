@@ -50,3 +50,8 @@ a p, a p i{
     color: #3E2723;
 }
 
+.close-modal-img{
+    position: relative;
+    right: 5rem;
+    top:1rem;
+}
