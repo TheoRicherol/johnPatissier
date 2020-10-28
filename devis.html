@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="assets/css/style-devis.css" rel="stylesheet" type="text/css">
-    <<script src="https://kit.fontawesome.com/d89aa1e4ce.js" crossorigin="anonymous"></script>
-    <title></title>
+    <<script src="https://kit.fontawesome.com/d89aa1e4ce.js" crossorigin="anonymous">
+        </script>
+        <title></title>
 </head>
 
 <body>
@@ -34,102 +35,107 @@
             </div>
         </nav>
 
-    <div class="container">
-    <div class="row d-flex align-left text-black">
-        <div class="col-md-8 p-1">  
-        <form class="form-horizontal " action="" method="post"></form>
-            <legend>Devis</legend>
-        </div>
+        <div class="container justify-content-center">
+            <div class="row d-flex align-left text-black">
+                <div class="col-md-8 p-1">
+                    <form class="form-horizontal " action="" method="post"></form>
+                    <legend>Devis</legend>
+                </div>
 
-        <form>
-            <div class="form-row">
-                <div class="col-form col-lg-6 col-md-10 col-sm-12 ">
-                <div class="col p-1">
-                    <input type="text" class="form-control" placeholder="Nom">
-                    </div>
-                </div>
-                <div class="col-form col-lg-6 col-md-10 col-sm-12 ">
-                    <div class="col p-1">
-                    <input type="text" class="form-control" placeholder="Prénom">
-                    </div>
-                </div>
-               </div>
-               
-               
-                <div class="form-row">
-                    <div class="col-lg-6 col-md-10 col-sm-12 ">
-                    <form class="form-group">
-                     <div class="col p-1">
-                        <input type="text" class="form-control" placeholder="Téléphone">
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input">
-                                    Buffet sucré
-                                </label>
+                <form>
+                    <div class="form-row">
+                        <div class="col-form col-lg-6 col-md-10 col-sm-12 ">
+                            <div class="col p-1">
+                                <input type="text" class="form-control" placeholder="Nom">
                             </div>
                         </div>
-                    </form>
-                    </div>
-                    <div class="col-lg-6 col-md-10 col-sm-12">
-                    <form class="form-group">
-                        <div class="col p-1">
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Adresse mail">
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input">
-                                    Gâteau à theme
-                                </label>
+                        <div class="col-form col-lg-6 col-md-10 col-sm-12 ">
+                            <div class="col p-1">
+                                <input type="text" class="form-control" placeholder="Prénom">
                             </div>
-                        </form>
-                    </div>
-                    </div>
-                    <div class="col-lg-6 col-md-10 col-sm-12">
-                    <div class="form-group">
-                        <div class="col p-1">
-                            <input type="nombre" class="form-control" id="inputnombre" placeholder="Nombre de personne">
                         </div>
                     </div>
-                </div>
-                    <div class="col-lg-6 col-md-10 col-sm-12">
-                    <div class="form-group">
-                        <div class="col p-1">
-                            <input type="nombre" class="form-control" id="inputnombre" placeholder="Nombre de parts">
+
+
+                    <div class="form-row">
+                        <div class="col-lg-6 col-md-10 col-sm-12 ">
+                            <form class="form-group">
+                                <div class="col p-1">
+                                    <input type="text" class="form-control" placeholder="Téléphone">
+
+                                    <label class="radio1">
+                                        <input name="radioGroup" id="radio1" value="optionBuffetSucre"
+                                            type="radio">Buffet sucré
+                                    </label>
+
+                                    <label class="radio2">
+                                        <input name="radioGroup" id="radio2" value="optionGateauatheme" checked=""
+                                            type="radio">Gâteau à théme
+                                    </label>
+
+
+                                </div>
+                            </form>
                         </div>
-                    </div>
+                        <div class="col-lg-6 col-md-10 col-sm-12">
+                            <form class="form-group">
+                                <div class="col p-1">
+                                    <input type="email" class="form-control" id="inputEmail4"
+                                        placeholder="Adresse mail">
+                            </form>
+                        </div>
                     </div>
                     
-                <div class="col-lg-6">
-                    <div class="form-group">
-                        <div class="col p-1">
-                        <label for="exampleFormControlTextarea1"></label>
-          <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10" placeholder="Décrivez votre demande la plus précise possible..."></textarea>
-                    </div>
-
-                        <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div>
-                
-                        <button type="button" class="btn btn-white" data-toggle="button" aria-pressed="false" autocomplete="off">
-                          </button>
-                          
-                        <div class="button">
-                            <a href="#" class="btn btn-primary btn-sm active" role="button" title="Envoyer">Envoyer</a>
+                    <div class="col-lg-6 col-md-10 col-sm-12">
+                        <div class="form-group">
+                            <div class="col p-1">
+                                <input type="nombre" class="form-control" id="inputnombre"
+                                    placeholder="Nombre de personne">
+                            </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12">
+                        <div class="form-group">
+                            <div class="col p-1">
+                                <input type="nombre" class="form-control" id="inputnombre"
+                                    placeholder="Nombre de parts">
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col-lg-6 align-center">
+                        <div class="form-group">
+                            <div class="col p-1">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <textarea class="form-control rounded-0 text-center justify-content-center" id="ControlTextarea1" rows="10"
+                                    placeholder="Décrivez votre demande la plus précise possible..."></textarea>
+                            </div>
+
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">Captcha</label>
+                            </div>
+                            <div class="button">
+                                <a href="#" class="btn btn-primary btn-sm active" role="button"
+                                    title="Envoyer">Envoyer</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                </div>
-                </div>
-                </form>
-             
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
