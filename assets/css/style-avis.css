@@ -1,43 +1,53 @@
-html, body {
+html,
+body {
     background-color: #DCDCDC;
     color: white;
     height: 100%;
 }
+
 .headerBackground {
     background-color: #3E2723;
-    color: white;   
+    color: white;
 }
-.container-fluid { 
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0; 
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
+
 [class*="row"] {
-	    margin-bottom: 1em;
-        justify-content: center;
-        color:black;
+    margin-bottom: 1em;
+    justify-content: center;
+    color: black;
 }
 
 p {
-   
-        padding: 1rem;
-        font-size: 14px;
-        border-color: black;
-        text-align: left;
-        background-color: white;       
+    padding: 1rem;
+    font-size: 14px;
+    border-color: black;
+    text-align: left;
+    background-color: white;
 }
+
 img {
-         width: 5rem;
-         height: 5rem;
+    width: 5rem;
+    height: 5rem;
 }
+
 .div-img img {
-         width: 30rem;
-         height: 30rem;
+    width: 30rem;
+    height: 30rem;
 }
+
 .card-title {
-         text-align: left;
+    text-align: left;
+}
+
+.textarea {
+    text-align: center;
 }
 .button {
     text-align: center;
