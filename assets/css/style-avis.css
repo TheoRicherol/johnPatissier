@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 3rem;
 }
 
 [class*="row"] {
@@ -48,7 +48,14 @@ img {
 
 .textarea {
     text-align: center;
+    height: auto;
 }
 .button {
     text-align: center;
+    padding: 1rem;
+}
+.more {
+    background-color: #DCDCDC;
+    align-content: center;
+    
 }
