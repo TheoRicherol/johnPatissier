@@ -1,35 +1,59 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+
+
+body,
+html {
+    background-color: #F2F2F2;
+}
+
+
+.burger-menu {
+    position: absolute;
+    width: 20rem;
+    top: 4rem;
+    right: 0;
+    z-index: 20;
+}
+
+.burger-menu ul {
+    position: relative;
     background-color: white;
+    width: 20rem;
+    position: right;
 }
 
-.headerBackground {
-    background-color: #3E2723;
+.burger-menu li {
+    list-style: none;
+    color: #3E2723;
 }
 
+nav i {
+    font-size: 1.5rem;
+}
+
+a p, a p i{
+    font-size: 1em;
+    color: #3E2723;
+}
+img{
+    min-width: 100%;
+ }
 .container .container-fluid .row {
     background-color: #DCDCDC;
     text-align: center;
     display: flex;
     float: none;
-    
 }
+
 .row {
-   text-align: center;
-   margin: 1rem;
+    text-align: center;
+    margin: 1rem;
 }
+
 .form-textarea {
     align-content: center;
 }
 
-img {
-    width: 5rem;
-    height: 5rem;
-}
-
-.div-img img {
-    width: 30rem;
-    height: 30rem;
-}
 .button {
     margin-left: 2rem;
 }
