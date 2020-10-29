@@ -22,6 +22,11 @@ body {
     height: auto;
 }
 
+.div-img2 img {
+    width: 1.5rem;
+    height: auto;
+}
+
 .marginMention {
     margin-left: 10rem;
 }
