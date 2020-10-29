@@ -1,0 +1,15 @@
+
+.img-fluid {
+    background: url('assets/img/gateau-de-mousse-au-chocolat') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+   }
+   .container-fluid {
+    display: block;
+    position: relative;
+  }
+
+  .footer {
+    background-color: #6A4F4B;
+}
