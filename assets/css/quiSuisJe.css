@@ -35,11 +35,6 @@ body {
     background-color: #6A4F4B;
 }
 
-hr {
-    margin-top: 1rem;
-    color: white;
-}
-
 h1 {
     font-size: 4rem;
 }
@@ -67,3 +62,8 @@ h1 {
     list-style: none;
     color: #3E2723;
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
