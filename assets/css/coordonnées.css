@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,900&display=swap');
 
-body {
-    background-color: white;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
 
 .headerBackground {
     background-color: #3E2723;
@@ -24,6 +18,10 @@ body {
 .div-img2 img {
     width: 1.5rem;
     height: auto;
+}
+.title{
+    color: white;
+    font-size: 2rem;
 }
 
 .marginMention {
@@ -95,4 +93,8 @@ p {
 .burger-menu li {
     list-style: none;
     color: #3E2723;
+}
+
+.bg-pastery{
+    background-color: #3E2723;
 }
