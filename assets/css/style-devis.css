@@ -6,7 +6,6 @@ html {
     background-color: #F2F2F2;
 }
 
-
 .burger-menu {
     position: absolute;
     width: 20rem;
@@ -52,6 +51,7 @@ img{
 
 .form-textarea {
     align-content: center;
+    margin: auto;
 }
 
 .button {
